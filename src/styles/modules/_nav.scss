@@ -1,0 +1,70 @@
+.nav-block {
+  width: 1180px;
+  height: 64px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+
+  .navbar {
+    height: 64px;
+    //border: 1px solid red;
+    display: flex;
+    justify-content: left;
+  }
+
+  .navbar-title{
+    //color: #18A4E0;
+    //font-family: 'Montserrat', sans-serif;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-18a4e0);
+    text-align: left;
+    font: normal normal normal 24px/29px Montserrat;
+    letter-spacing: 0px;
+    color: #18A4E0;
+
+    .cv{
+      font: var(--unnamed-font-style-normal) normal 900 var(--unnamed-font-size-24)/var(--unnamed-line-spacing-29) var(--unnamed-font-family-montserrat);
+      color: var(--unnamed-color-18a4e0);
+      text-align: left;
+      font: normal normal 900 24px/29px Montserrat;
+      letter-spacing: 0.6px;
+      color: #18A4E0;
+    }
+  }
+
+  .btn-block{
+    justify-content: space-evenly;
+
+    .btn-nav{
+      width: 99px;
+      height: 36px;
+      text-decoration: none;
+      border: none;
+      background: none;
+      font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-montserrat);
+      letter-spacing: var(--unnamed-character-spacing-1-25);
+      color: var(--unnamed-color-18a4e0);
+      text-align: center;
+      font: normal normal medium 14px/18px Montserrat;
+      letter-spacing: 1.25px;
+      color: #18A4E0;
+    }
+
+    .btn-up{
+      border: 1px solid var(--unnamed-color-18a4e0);
+      border: 1px solid #18A4E0;
+      border-radius: 4px;
+    }
+
+    .btn-in{
+      background: var(--unnamed-color-18a4e0) 0% 0% no-repeat padding-box;
+      background: #18A4E0 0% 0% no-repeat padding-box;
+      border-radius: 4px;
+      color: var(--unnamed-color-ffffff);
+      color: #FFFFFF;
+    }
+  }
+}
+
