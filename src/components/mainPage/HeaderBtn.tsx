@@ -1,8 +1,14 @@
 import React from 'react';
 
-const HeaderBtn = () => {
+type PropType={
+    cls?: string,
+    title?: string
+}
+
+
+const HeaderBtn = ({cls} : PropType) => {
     return (
-        <button className='header-btn'>Create CV</button>
+        <button className={cls}>Create CV</button>
     );
 };
 

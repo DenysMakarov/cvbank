@@ -1,7 +1,13 @@
 import React from 'react';
 import HeaderBtn from "./HeaderBtn";
 
-const Header = () => {
+type PropType={
+    cls?: string,
+    title?: string
+}
+
+
+const Header = ({cls} : PropType) => {
     return (
         <React.Fragment>
             <div className='col-1'></div>
@@ -16,7 +22,7 @@ const Header = () => {
                     HIRE & <br/>GET HIRED!
                 </p>
 
-                <HeaderBtn/>
+                <HeaderBtn cls={cls}/>
 
                 <p className='bottom-text'>
                     Create your CV online, select any template you like most of all, edit, export it and use anywhere.
