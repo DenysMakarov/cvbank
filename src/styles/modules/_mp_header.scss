@@ -1,0 +1,68 @@
+.header {
+  //border: 1px solid red;
+  height: 100%;
+
+  .top-text {
+    width: 325px;
+    height: 30px;
+    margin-top: 22px;
+    letter-spacing: var(--unnamed-character-spacing-0-4);
+    text-align: left;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/var(--unnamed-line-spacing-15) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0-4);
+    color: var(--unnamed-color-3b3b3b);
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0.4px;
+    color: #3B3B3B;
+  }
+
+  a{
+    color: black;
+  }
+
+  .title-text{
+    width: 547px;
+    height: 213px;
+    //border: 1px solid red;
+    margin-top: 100px;
+
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-96)/96px var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing--1-55);
+    color: var(--unnamed-color-18a4e0);
+    text-align: left;
+    font: normal normal 300 96px/96px Montserrat;
+    letter-spacing: -1.55px;
+    color: #18A4E0;
+    font-size: 96px;
+  }
+
+  .header-btn{
+    background: var(--unnamed-color-fa7268) 0% 0% no-repeat padding-box;
+    background: #FA7268 0% 0% no-repeat padding-box;
+    box-shadow: 1px 2px 4px #00000041;
+    border-radius: 24px;
+
+    width: 220px;
+    height: 48px;
+
+    margin-top: 100px;
+    border: none;
+    color: #ffffff;
+  }
+
+  .bottom-text{
+    width: 226px;
+    height: 62px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/var(--unnamed-line-spacing-15) var(--unnamed-font-family-montserrat);
+    letter-spacing: var(--unnamed-character-spacing-0-4);
+    color: var(--unnamed-color-18a4e0);
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0.4px;
+    color: #18A4E0;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+}
