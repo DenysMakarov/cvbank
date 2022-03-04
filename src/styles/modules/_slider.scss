@@ -1,0 +1,26 @@
+.slick-slider-block{
+  //border: 1px solid red;
+  height: 192px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  color: #18A4E0;
+  background: white;
+  position: absolute;
+  top: 0;
+}
+
+.slick-prev:before{
+  left: -70px;
+}
+
+.slick-next:before{
+  right: -70px;
+}
+
+.slider-item{
+  width: 151px;
+  height: 192px;
+  background-size: cover;
+}
