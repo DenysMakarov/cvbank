@@ -1,13 +1,8 @@
 import React from 'react';
 import HeaderBtn from "./HeaderBtn";
 
-type PropType={
-    cls?: string,
-    title?: string
-}
 
-
-const Header = ({cls} : PropType) => {
+const Header = ({cls}) => {
     return (
         <React.Fragment>
             <div className='col-1'></div>

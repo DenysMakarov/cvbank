@@ -2,11 +2,6 @@ import React from 'react';
 import {FontAwesomeIcon, FontAwesomeIconProps} from "@fortawesome/react-fontawesome";
 import {faCirclePlay, faFaceAngry} from '@fortawesome/free-solid-svg-icons'
 
-// const f = <FontAwesomeIcon icon={faF} />
-// <FontAwesomeIcon icon="fa-brands fa-twitter" />
-// const f = <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-// <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
-
 const Footer = () => {
     return (
         <div className='row main-page-footer'>
@@ -29,7 +24,7 @@ const Footer = () => {
             <div className='col-3 footer-item'>
                 <span className='footer-input-text'>Subscribe to our newsletter</span>
                 <div className='input-block'>
-                    <input className='input-footer' type="text"/>
+                    <input className='input-footer' type="text" placeholder='Email Address'/>
                     <button className='btn-footer-input'>OK</button>
                 </div>
             </div>

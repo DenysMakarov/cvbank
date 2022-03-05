@@ -1,0 +1,163 @@
+.modal-wrapper {
+  width: 1440px;
+  height: 100%;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  //border: 1px solid red;
+  background-image: url('../../img/mainpage_blure.png');
+  //background: transparent;
+  background-size: cover;
+  filter: blur(5px);
+}
+
+.modal-signIn {
+  width: 640px;
+  height: 334px;
+  position: fixed;
+  z-index: 120;
+  top: 20%;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 19px 38px #00000042;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  font: normal normal medium 20px/24px Montserrat;
+  letter-spacing: 0.26px;
+  color: #18A4E0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.modal-escape {
+  //border: 1px solid red;
+  margin-top: 5px;
+  width: 25px;
+  height: 25px;
+  float: right;
+  position: relative;
+
+  .line {
+    left: 10px;
+    position: absolute;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    height: 20px;
+  }
+
+  .right-line {
+    transform: rotate(-45deg);
+  }
+}
+
+.clearBoth {
+  clear: both;
+}
+
+.input-block-modal {
+  margin-top: 5%;
+  //border: 1px solid red;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  float: left;
+
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #18A4E0;
+  }
+
+  input::placeholder {
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0.4px;
+    color: #00000099;
+  }
+}
+
+.socialMediaLink-block{
+  //border: 1px solid red;
+  width: 20%;
+  float: right;
+  margin-top: 12%;
+  height: 20%;
+  margin-right: 50px;
+
+  p{
+    height: 3px;
+    padding-bottom: 10px
+  }
+}
+
+.icon-modal {
+  color: #18A4E0;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-modal-block{
+  //border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-modal{
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+
+.links-modal, .links-modal-right{
+  position: absolute;
+  bottom: 10%;
+  left: 15px;
+  color: var(--unnamed-color-3b3b3b);
+  text-align: left;
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0.4px;
+
+  a{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 12px/15px Montserrat;
+    letter-spacing: 0.4px;
+    color: #18A4E0;
+    text-transform: uppercase;
+  }
+}
+
+.links-modal-right{
+  left: 200px;
+}
+
+.modal-window-signUp{
+  height: 429px;
+
+  input{
+    margin-top: 15px;
+  }
+
+  .socialMediaLink-block{
+    margin-top: 40px;
+
+    p{
+      padding-bottom: 10px;
+    }
+  }
+
+}

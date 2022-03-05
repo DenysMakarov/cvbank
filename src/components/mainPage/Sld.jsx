@@ -1,12 +1,6 @@
 import React from 'react';
 
-type PropType={
-    cont?: string,
-    title?: string,
-    urlImg?: string
-}
-
-const Sld = ({urlImg}:PropType) => {
+const Sld = ({urlImg}) => {
     return (
         <img src={urlImg} alt="" className='slider-item'/>
     );

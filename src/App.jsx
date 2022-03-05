@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.scss';
 import Navigation from "./components/navigation/Navigation";
 import MainPage from "./components/mainPage/MainPage";
+import SignInModal from "./components/modalWindow/SignInModal";
 
-function App() {
+
+
+
+const App = () => {
+
     return (
         <div className="App">
             <Navigation/>

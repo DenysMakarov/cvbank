@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const MainContent = () => {
     return (
-        <div className={`row`}>
+        <div className={`row-cols-auto`}>
             <SliderBlock/>
             <YouAre/>
             <About/>
