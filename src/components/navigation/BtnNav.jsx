@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {showSignIn} from "../../actions/showModalAction";
 
-const BtnNav = ({cls, title, fun}) => {
+const BtnNav = ({cls, title, fun, register}) => {
 
     return (
         <React.Fragment>

@@ -230,23 +230,25 @@
   font-size: 12px;
   height: 40px;
   width: 61px;
-
   text-align: left;
   font: normal normal normal 12px/15px Montserrat;
   letter-spacing: 0.4px;
   color: #18A4E0;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .socialMediaLink-block{
-
   p{
     text-align: center;
     font: normal normal normal 12px/15px Montserrat;
     letter-spacing: 0.4px;
     color: #3B3B3B;
   }
+}
+
+.icon-footer{
+  margin-right: 10px;
+  font-size: 20px;
 }

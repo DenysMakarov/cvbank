@@ -2,7 +2,7 @@ import {HIDE_MODAL_SIGN_IN, HIDE_MODAL_SIGN_UP, SHOW_MODAL_SIGN_IN, SHOW_MODAL_S
 
 const initialState = {
     signIn: false,
-    signUp: true
+    signUp: false
 }
 
 export const showModalReducer = (state = initialState, action) => {

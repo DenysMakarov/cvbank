@@ -1,6 +1,7 @@
 import React from 'react';
-import {FontAwesomeIcon, FontAwesomeIconProps} from "@fortawesome/react-fontawesome";
-import {faCirclePlay, faFaceAngry} from '@fortawesome/free-solid-svg-icons'
+import {FaTwitter, FaFacebookF, FaInstagram} from 'react-icons/fa';
+// <FaFacebook className='icon-modal'/>
+//     <FaGoogle className='icon-modal'/>
 
 const Footer = () => {
     return (
@@ -17,9 +18,9 @@ const Footer = () => {
                 <a className='footer-link' href="#">Admin page</a> <br/>
             </div>
             <div className='col-2 footer-item'>
-                <a className='footer-link' >Facebook</a> <br/>
-                <a className='footer-link' href="#">Twitter</a> <br/>
-                <a className='footer-link' href="#">Instagram</a> <br/>
+                <a className='footer-link' ><FaFacebookF className='icon-footer'/>Facebook</a> <br/>
+                <a className='footer-link' href="#"><FaTwitter className='icon-footer'/>Twitter</a> <br/>
+                <a className='footer-link' href="#"><FaInstagram className='icon-footer'/>Instagram</a> <br/>
             </div>
             <div className='col-3 footer-item'>
                 <span className='footer-input-text'>Subscribe to our newsletter</span>
