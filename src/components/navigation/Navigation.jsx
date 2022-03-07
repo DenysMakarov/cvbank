@@ -11,7 +11,7 @@ const Navigation = () => {
     const {navigationUser, signInUp} = useSelector(store => store.navigationReducer)
 
     useEffect(() => {
-        console.log(signInUp)
+        // console.log(signInUp)
     }, [signInUp])
 
     const dispatch = useDispatch();

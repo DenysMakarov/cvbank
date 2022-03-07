@@ -1,9 +1,7 @@
 import {ADD_USER, REMOVE_USER} from "../actions/userAction";
 
 const initiallyState = {
-    userDetails: {
-
-    }
+    userDetails: {}
 }
 
 export const userReducer = (state = initiallyState, action) => {
