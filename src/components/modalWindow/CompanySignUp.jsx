@@ -92,7 +92,7 @@ const CompanySignUp = () => {
                     // defaultValue={el.name}
                 />)}
 
-            <button onClick={registerCompany} className='btn-company-signup'>SIGN IN</button>
+            <button onClick={registerCompany} className='btn-company-signup'>SIGN UP</button>
 
             <p className='company-sign-up-text'>
                 By clicking “SIGN UP, you confirm that you <br/> accept the

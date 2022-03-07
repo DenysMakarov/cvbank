@@ -43,7 +43,7 @@ const CompanySignIn = () => {
 
     return (
         <div className='company-sign-up'>
-            <p className='company-sign-up-title'>SIGN UP</p>
+            <p className='company-sign-up-title'>SIGN IN</p>
             {passArr.map((el, idx) =>
                 <input
                     onChange={getValueFromInput}

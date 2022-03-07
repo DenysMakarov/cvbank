@@ -57,7 +57,7 @@ const SignUpModal = () => {
                     <div className='line left-line'/>
                     <div className='line right-line'/>
                 </div>
-                <div className='clearBoth'></div>
+                <div className='clearBoth'/>
                 <div className='input-block-modal'>
                     <input onChange={getValueFromInput} type="text" name='name' placeholder='Name' defaultValue={user.name} />
                     <input onChange={getValueFromInput} type="text" name='lastName' placeholder='Last name' defaultValue={user.lastName}/>
